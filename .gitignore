@@ -3,3 +3,6 @@
 ################################################################################
 
 /WeShareServer/.vs
+/WeShareServer/packages
+/WeShareServer/WeShareServer/obj
+/WeShareServer/WeShareServer/bin

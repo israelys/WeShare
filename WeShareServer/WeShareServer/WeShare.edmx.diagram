@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="167876eeeb9142658c708bfa68eea798" Name="Diagram1">
+        <EntityTypeShape EntityType="WeShareModel.User" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="WeShareModel.Job" Width="1.5" PointX="0.75" PointY="4.625" />
+        <EntityTypeShape EntityType="WeShareModel.Offer" Width="1.5" PointX="5.25" PointY="1.25" />
+        <EntityTypeShape EntityType="WeShareModel.Request" Width="1.5" PointX="3" PointY="0.75" />
+        <AssociationConnector Association="WeShareModel.FK_req_job" />
+        <AssociationConnector Association="WeShareModel.FK_offers_request" />
+        <AssociationConnector Association="WeShareModel.FK_offers_user" />
+        <AssociationConnector Association="WeShareModel.FK_req_user" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
